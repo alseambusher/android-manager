@@ -5,3 +5,4 @@
 4. You can use this to transfer files to/from you device without mounting device. Hence better phone performance when connected to computer
 5. You can backup/restore/install applications using this.
 6. Works best on rooted phones.
+##still under dev

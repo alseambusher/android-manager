@@ -72,6 +72,9 @@ class file_explorer:
 		return terminal("find %s -name '*.jpg' -o -name '*.png' -o -name '*.gif'"%location)
 	def documents(self,location,doc_type):
 		return terminal("find %s -name '*.%s'"%(location,doc_type))
+	#TODO fix this
+	def search(self,location,search_str):
+		return terminal("ls -l `find %s -name '*%s*'`"%(location,search_str))
 	def directories_formatted(self,location):
 	#TODO trim each string and do this
 		#0-permissions 1-owner 4-group 14-date 15-time 16 and above -name
