@@ -7,7 +7,7 @@ import config
 class window(gtk.Window):
 	def __init__(self):
 		super(window,self).__init__()
-		self.set_title("Install android manager")
+		self.set_title("Uninstall android manager")
 		self.set_size_request(500,500)
 		self.modify_bg(gtk.STATE_NORMAL,gtk.gdk.Color(config.background))
 		self.set_position(gtk.WIN_POS_CENTER)
